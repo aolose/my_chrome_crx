@@ -1,0 +1,24 @@
+{
+  "name": "Job Logs",
+  "author":"Aolose",
+  "description": "快速发布工作日志，日志ID为对应页面地址\"http://req.51qqt.com/Pts/ViewProblem.aspx?Problem=\"后面的数字",
+  "version": "0.1",
+  "background": {
+	"page": "bg.html"
+  },
+  "icons":{
+	"128": "icon_128.png",
+	"32": "icon_32.png",
+	"16": "icon_16.png"
+  },
+  "browser_action": {
+	"name": "Click to change the icon's color",
+	"default_icon": "icon_32.png",
+	"default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "permissions":[
+	"cookies",
+	"http://req.51qqt.com/"
+  ]
+}
