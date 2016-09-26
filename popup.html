@@ -7,21 +7,16 @@
 	<script src="tinymce.min.js"></script>
 </head>
 <body>
-<form id="f" method="post">
-	<input type="hidden" name="__VIEWSTATE">
-	<input type="hidden" name="ctl00$CP1$btnSubbmit" value="提交工作记录 (Alt+S)">
-	<input type="hidden" name="ctl00$CP1$editorContent$editor">
-</form>
 <div>
 	<div class="needLogin">
 		<div id="splice"></div>
 	</div>
 	<div class="opt">
-		<label>日志ID</label>
-		<input type="text" id="url">
+		<label>日志</label>
+		<select title="" id="url"></select>
 		<div class="b-group">
 			<button id="send">发送</button>
-			<button id="check">刷新状态</button>
+			<button id="check">刷新日志列表</button>
 			<button id="clear">清空</button>
 		</div>
 	</div>
